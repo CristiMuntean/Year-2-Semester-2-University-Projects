@@ -1,0 +1,248 @@
+
+-------Simulation begins-------
+
+---Time:0---
+-------Waiting Clients-------
+(0,4,5) (1,10,5) (2,9,4) (3,8,6) (4,9,3) (5,6,6) (6,10,6) (7,5,4) (8,4,4) (9,8,5) (10,6,4) (11,9,3) (12,5,3) (13,9,3) (14,3,4) (15,5,4) (16,2,5) (17,7,6) (18,7,6) (19,8,6) 
+-------Servers-------
+Id:0, Waiting time:0, Queue Length:0, Tasks:
+Id:1, Waiting time:0, Queue Length:0, Tasks:
+Id:2, Waiting time:0, Queue Length:0, Tasks:
+Id:3, Waiting time:0, Queue Length:0, Tasks:
+Id:4, Waiting time:0, Queue Length:0, Tasks:
+
+---Time:1---
+-------Waiting Clients-------
+(0,4,5) (1,10,5) (2,9,4) (3,8,6) (4,9,3) (5,6,6) (6,10,6) (7,5,4) (8,4,4) (9,8,5) (10,6,4) (11,9,3) (12,5,3) (13,9,3) (14,3,4) (15,5,4) (16,2,5) (17,7,6) (18,7,6) (19,8,6) 
+-------Servers-------
+Id:0, Waiting time:0, Queue Length:0, Tasks:
+Id:1, Waiting time:0, Queue Length:0, Tasks:
+Id:2, Waiting time:0, Queue Length:0, Tasks:
+Id:3, Waiting time:0, Queue Length:0, Tasks:
+Id:4, Waiting time:0, Queue Length:0, Tasks:
+
+---Time:2---
+-------Waiting Clients-------
+(0,4,5) (1,10,5) (2,9,4) (3,8,6) (4,9,3) (5,6,6) (6,10,6) (7,5,4) (8,4,4) (9,8,5) (10,6,4) (11,9,3) (12,5,3) (13,9,3) (14,3,4) (15,5,4) (17,7,6) (18,7,6) (19,8,6) 
+-------Servers-------
+Id:0, Waiting time:5, Queue Length:1, Tasks:(16,2,5) 
+Id:1, Waiting time:0, Queue Length:0, Tasks:
+Id:2, Waiting time:0, Queue Length:0, Tasks:
+Id:3, Waiting time:0, Queue Length:0, Tasks:
+Id:4, Waiting time:0, Queue Length:0, Tasks:
+
+---Time:3---
+-------Waiting Clients-------
+(0,4,5) (1,10,5) (2,9,4) (3,8,6) (4,9,3) (5,6,6) (6,10,6) (7,5,4) (8,4,4) (9,8,5) (10,6,4) (11,9,3) (12,5,3) (13,9,3) (15,5,4) (17,7,6) (18,7,6) (19,8,6) 
+-------Servers-------
+Id:0, Waiting time:5, Queue Length:1, Tasks:(16,2,5) 
+Id:1, Waiting time:4, Queue Length:1, Tasks:(14,3,4) 
+Id:2, Waiting time:0, Queue Length:0, Tasks:
+Id:3, Waiting time:0, Queue Length:0, Tasks:
+Id:4, Waiting time:0, Queue Length:0, Tasks:
+
+---Time:4---
+-------Waiting Clients-------
+(1,10,5) (2,9,4) (3,8,6) (4,9,3) (5,6,6) (6,10,6) (7,5,4) (9,8,5) (10,6,4) (11,9,3) (12,5,3) (13,9,3) (15,5,4) (17,7,6) (18,7,6) (19,8,6) 
+-------Servers-------
+Id:0, Waiting time:5, Queue Length:1, Tasks:(16,2,5) 
+Id:1, Waiting time:4, Queue Length:1, Tasks:(14,3,4) 
+Id:2, Waiting time:5, Queue Length:1, Tasks:(0,4,5) 
+Id:3, Waiting time:4, Queue Length:1, Tasks:(8,4,4) 
+Id:4, Waiting time:0, Queue Length:0, Tasks:
+
+---Time:5---
+-------Waiting Clients-------
+(1,10,5) (2,9,4) (3,8,6) (4,9,3) (5,6,6) (6,10,6) (9,8,5) (10,6,4) (11,9,3) (13,9,3) (17,7,6) (18,7,6) (19,8,6) 
+-------Servers-------
+Id:0, Waiting time:5, Queue Length:1, Tasks:(16,2,5) 
+Id:1, Waiting time:7, Queue Length:2, Tasks:(14,3,4) (12,5,3) 
+Id:2, Waiting time:5, Queue Length:1, Tasks:(0,4,5) 
+Id:3, Waiting time:8, Queue Length:2, Tasks:(8,4,4) (15,5,4) 
+Id:4, Waiting time:4, Queue Length:1, Tasks:(7,5,4) 
+
+---Time:6---
+-------Waiting Clients-------
+(1,10,5) (2,9,4) (3,8,6) (4,9,3) (6,10,6) (9,8,5) (11,9,3) (13,9,3) (17,7,6) (18,7,6) (19,8,6) 
+-------Servers-------
+Id:0, Waiting time:9, Queue Length:2, Tasks:(16,2,5) (10,6,4) 
+Id:1, Waiting time:7, Queue Length:2, Tasks:(14,3,4) (12,5,3) 
+Id:2, Waiting time:5, Queue Length:1, Tasks:(0,4,5) 
+Id:3, Waiting time:8, Queue Length:2, Tasks:(8,4,4) (15,5,4) 
+Id:4, Waiting time:10, Queue Length:2, Tasks:(7,5,4) (5,6,6) 
+
+---Time:7---
+-------Waiting Clients-------
+(1,10,5) (2,9,4) (3,8,6) (4,9,3) (6,10,6) (9,8,5) (11,9,3) (13,9,3) (19,8,6) 
+-------Servers-------
+Id:0, Waiting time:10, Queue Length:2, Tasks:(10,6,4) (18,7,6) 
+Id:1, Waiting time:9, Queue Length:2, Tasks:(12,5,3) (17,7,6) 
+Id:2, Waiting time:5, Queue Length:1, Tasks:(0,4,5) 
+Id:3, Waiting time:8, Queue Length:2, Tasks:(8,4,4) (15,5,4) 
+Id:4, Waiting time:10, Queue Length:2, Tasks:(7,5,4) (5,6,6) 
+
+---Time:8---
+-------Waiting Clients-------
+(1,10,5) (2,9,4) (4,9,3) (6,10,6) (11,9,3) (13,9,3) 
+-------Servers-------
+Id:0, Waiting time:10, Queue Length:2, Tasks:(10,6,4) (18,7,6) 
+Id:1, Waiting time:15, Queue Length:3, Tasks:(12,5,3) (17,7,6) (19,8,6) 
+Id:2, Waiting time:10, Queue Length:2, Tasks:(0,4,5) (9,8,5) 
+Id:3, Waiting time:10, Queue Length:2, Tasks:(15,5,4) (3,8,6) 
+Id:4, Waiting time:10, Queue Length:2, Tasks:(7,5,4) (5,6,6) 
+
+---Time:9---
+-------Waiting Clients-------
+(1,10,5) (6,10,6) 
+-------Servers-------
+Id:0, Waiting time:10, Queue Length:2, Tasks:(10,6,4) (18,7,6) 
+Id:1, Waiting time:15, Queue Length:3, Tasks:(12,5,3) (17,7,6) (19,8,6) 
+Id:2, Waiting time:12, Queue Length:3, Tasks:(9,8,5) (2,9,4) (11,9,3) 
+Id:3, Waiting time:10, Queue Length:2, Tasks:(15,5,4) (3,8,6) 
+Id:4, Waiting time:12, Queue Length:3, Tasks:(5,6,6) (4,9,3) (13,9,3) 
+
+---Time:10---
+-------Waiting Clients-------
+
+-------Servers-------
+Id:0, Waiting time:15, Queue Length:3, Tasks:(10,6,4) (18,7,6) (1,10,5) 
+Id:1, Waiting time:12, Queue Length:2, Tasks:(17,7,6) (19,8,6) 
+Id:2, Waiting time:12, Queue Length:3, Tasks:(9,8,5) (2,9,4) (11,9,3) 
+Id:3, Waiting time:16, Queue Length:3, Tasks:(15,5,4) (3,8,6) (6,10,6) 
+Id:4, Waiting time:12, Queue Length:3, Tasks:(5,6,6) (4,9,3) (13,9,3) 
+
+---Time:11---
+-------Waiting Clients-------
+
+-------Servers-------
+Id:0, Waiting time:11, Queue Length:2, Tasks:(18,7,6) (1,10,5) 
+Id:1, Waiting time:12, Queue Length:2, Tasks:(17,7,6) (19,8,6) 
+Id:2, Waiting time:12, Queue Length:3, Tasks:(9,8,5) (2,9,4) (11,9,3) 
+Id:3, Waiting time:16, Queue Length:3, Tasks:(15,5,4) (3,8,6) (6,10,6) 
+Id:4, Waiting time:12, Queue Length:3, Tasks:(5,6,6) (4,9,3) (13,9,3) 
+
+---Time:12---
+-------Waiting Clients-------
+
+-------Servers-------
+Id:0, Waiting time:11, Queue Length:2, Tasks:(18,7,6) (1,10,5) 
+Id:1, Waiting time:12, Queue Length:2, Tasks:(17,7,6) (19,8,6) 
+Id:2, Waiting time:12, Queue Length:3, Tasks:(9,8,5) (2,9,4) (11,9,3) 
+Id:3, Waiting time:12, Queue Length:2, Tasks:(3,8,6) (6,10,6) 
+Id:4, Waiting time:12, Queue Length:3, Tasks:(5,6,6) (4,9,3) (13,9,3) 
+
+---Time:13---
+-------Waiting Clients-------
+
+-------Servers-------
+Id:0, Waiting time:11, Queue Length:2, Tasks:(18,7,6) (1,10,5) 
+Id:1, Waiting time:12, Queue Length:2, Tasks:(17,7,6) (19,8,6) 
+Id:2, Waiting time:12, Queue Length:3, Tasks:(9,8,5) (2,9,4) (11,9,3) 
+Id:3, Waiting time:12, Queue Length:2, Tasks:(3,8,6) (6,10,6) 
+Id:4, Waiting time:12, Queue Length:3, Tasks:(5,6,6) (4,9,3) (13,9,3) 
+
+---Time:14---
+-------Waiting Clients-------
+
+-------Servers-------
+Id:0, Waiting time:11, Queue Length:2, Tasks:(18,7,6) (1,10,5) 
+Id:1, Waiting time:12, Queue Length:2, Tasks:(17,7,6) (19,8,6) 
+Id:2, Waiting time:7, Queue Length:2, Tasks:(2,9,4) (11,9,3) 
+Id:3, Waiting time:12, Queue Length:2, Tasks:(3,8,6) (6,10,6) 
+Id:4, Waiting time:12, Queue Length:3, Tasks:(5,6,6) (4,9,3) (13,9,3) 
+
+---Time:15---
+-------Waiting Clients-------
+
+-------Servers-------
+Id:0, Waiting time:11, Queue Length:2, Tasks:(18,7,6) (1,10,5) 
+Id:1, Waiting time:12, Queue Length:2, Tasks:(17,7,6) (19,8,6) 
+Id:2, Waiting time:7, Queue Length:2, Tasks:(2,9,4) (11,9,3) 
+Id:3, Waiting time:12, Queue Length:2, Tasks:(3,8,6) (6,10,6) 
+Id:4, Waiting time:6, Queue Length:2, Tasks:(4,9,3) (13,9,3) 
+
+---Time:16---
+-------Waiting Clients-------
+
+-------Servers-------
+Id:0, Waiting time:11, Queue Length:2, Tasks:(18,7,6) (1,10,5) 
+Id:1, Waiting time:6, Queue Length:1, Tasks:(19,8,6) 
+Id:2, Waiting time:7, Queue Length:2, Tasks:(2,9,4) (11,9,3) 
+Id:3, Waiting time:12, Queue Length:2, Tasks:(3,8,6) (6,10,6) 
+Id:4, Waiting time:6, Queue Length:2, Tasks:(4,9,3) (13,9,3) 
+
+---Time:17---
+-------Waiting Clients-------
+
+-------Servers-------
+Id:0, Waiting time:5, Queue Length:1, Tasks:(1,10,5) 
+Id:1, Waiting time:6, Queue Length:1, Tasks:(19,8,6) 
+Id:2, Waiting time:7, Queue Length:2, Tasks:(2,9,4) (11,9,3) 
+Id:3, Waiting time:12, Queue Length:2, Tasks:(3,8,6) (6,10,6) 
+Id:4, Waiting time:6, Queue Length:2, Tasks:(4,9,3) (13,9,3) 
+
+---Time:18---
+-------Waiting Clients-------
+
+-------Servers-------
+Id:0, Waiting time:5, Queue Length:1, Tasks:(1,10,5) 
+Id:1, Waiting time:6, Queue Length:1, Tasks:(19,8,6) 
+Id:2, Waiting time:3, Queue Length:1, Tasks:(11,9,3) 
+Id:3, Waiting time:6, Queue Length:1, Tasks:(6,10,6) 
+Id:4, Waiting time:3, Queue Length:1, Tasks:(13,9,3) 
+
+---Time:19---
+-------Waiting Clients-------
+
+-------Servers-------
+Id:0, Waiting time:5, Queue Length:1, Tasks:(1,10,5) 
+Id:1, Waiting time:6, Queue Length:1, Tasks:(19,8,6) 
+Id:2, Waiting time:3, Queue Length:1, Tasks:(11,9,3) 
+Id:3, Waiting time:6, Queue Length:1, Tasks:(6,10,6) 
+Id:4, Waiting time:3, Queue Length:1, Tasks:(13,9,3) 
+
+---Time:20---
+-------Waiting Clients-------
+
+-------Servers-------
+Id:0, Waiting time:5, Queue Length:1, Tasks:(1,10,5) 
+Id:1, Waiting time:6, Queue Length:1, Tasks:(19,8,6) 
+Id:2, Waiting time:3, Queue Length:1, Tasks:(11,9,3) 
+Id:3, Waiting time:6, Queue Length:1, Tasks:(6,10,6) 
+Id:4, Waiting time:3, Queue Length:1, Tasks:(13,9,3) 
+
+---Time:21---
+-------Waiting Clients-------
+
+-------Servers-------
+Id:0, Waiting time:5, Queue Length:1, Tasks:(1,10,5) 
+Id:1, Waiting time:6, Queue Length:1, Tasks:(19,8,6) 
+Id:2, Waiting time:0, Queue Length:0, Tasks:
+Id:3, Waiting time:6, Queue Length:1, Tasks:(6,10,6) 
+Id:4, Waiting time:0, Queue Length:0, Tasks:
+
+---Time:22---
+-------Waiting Clients-------
+
+-------Servers-------
+Id:0, Waiting time:0, Queue Length:0, Tasks:
+Id:1, Waiting time:0, Queue Length:0, Tasks:
+Id:2, Waiting time:0, Queue Length:0, Tasks:
+Id:3, Waiting time:6, Queue Length:1, Tasks:(6,10,6) 
+Id:4, Waiting time:0, Queue Length:0, Tasks:
+
+---Time:23---
+-------Waiting Clients-------
+
+-------Servers-------
+Id:0, Waiting time:0, Queue Length:0, Tasks:
+Id:1, Waiting time:0, Queue Length:0, Tasks:
+Id:2, Waiting time:0, Queue Length:0, Tasks:
+Id:3, Waiting time:6, Queue Length:1, Tasks:(6,10,6) 
+Id:4, Waiting time:0, Queue Length:0, Tasks:
+
+---Time:24---
+-------End of simulation-------
+Average service time:4.6
+Average waiting time:6.516667
+Peak hour:10, with a waiting time of:13.4

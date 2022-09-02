@@ -1,0 +1,498 @@
+
+-------Simulation begins-------
+
+---Time:0---
+-------Waiting Clients-------
+(0,40,2) (1,39,5) (2,31,6) (3,8,3) (4,4,4) (5,19,7) (6,14,1) (7,21,1) (8,29,5) (9,22,6) (10,32,2) (11,25,4) (12,40,1) (13,16,1) (14,28,3) (15,23,5) (16,10,7) (17,38,2) (18,28,1) (19,40,2) (20,8,2) (21,31,1) (22,32,7) (23,9,7) (24,2,1) (25,2,2) (26,30,7) (27,20,6) (28,29,1) (29,17,7) (30,37,3) (31,34,5) (32,10,6) (33,18,6) (34,30,4) (35,30,7) (36,7,6) (37,36,5) (38,23,3) (39,2,7) (40,22,3) (41,25,1) (42,36,7) (43,16,3) (44,15,2) (45,22,2) (46,29,4) (47,5,3) (48,22,6) (49,33,6) 
+-------Servers-------
+Id:0, Waiting time:0, Queue Length:0, Tasks:
+Id:1, Waiting time:0, Queue Length:0, Tasks:
+Id:2, Waiting time:0, Queue Length:0, Tasks:
+Id:3, Waiting time:0, Queue Length:0, Tasks:
+Id:4, Waiting time:0, Queue Length:0, Tasks:
+
+---Time:1---
+-------Waiting Clients-------
+(0,40,2) (1,39,5) (2,31,6) (3,8,3) (4,4,4) (5,19,7) (6,14,1) (7,21,1) (8,29,5) (9,22,6) (10,32,2) (11,25,4) (12,40,1) (13,16,1) (14,28,3) (15,23,5) (16,10,7) (17,38,2) (18,28,1) (19,40,2) (20,8,2) (21,31,1) (22,32,7) (23,9,7) (24,2,1) (25,2,2) (26,30,7) (27,20,6) (28,29,1) (29,17,7) (30,37,3) (31,34,5) (32,10,6) (33,18,6) (34,30,4) (35,30,7) (36,7,6) (37,36,5) (38,23,3) (39,2,7) (40,22,3) (41,25,1) (42,36,7) (43,16,3) (44,15,2) (45,22,2) (46,29,4) (47,5,3) (48,22,6) (49,33,6) 
+-------Servers-------
+Id:0, Waiting time:0, Queue Length:0, Tasks:
+Id:1, Waiting time:0, Queue Length:0, Tasks:
+Id:2, Waiting time:0, Queue Length:0, Tasks:
+Id:3, Waiting time:0, Queue Length:0, Tasks:
+Id:4, Waiting time:0, Queue Length:0, Tasks:
+
+---Time:2---
+-------Waiting Clients-------
+(0,40,2) (1,39,5) (2,31,6) (3,8,3) (4,4,4) (5,19,7) (6,14,1) (7,21,1) (8,29,5) (9,22,6) (10,32,2) (11,25,4) (12,40,1) (13,16,1) (14,28,3) (15,23,5) (16,10,7) (17,38,2) (18,28,1) (19,40,2) (20,8,2) (21,31,1) (22,32,7) (23,9,7) (26,30,7) (27,20,6) (28,29,1) (29,17,7) (30,37,3) (31,34,5) (32,10,6) (33,18,6) (34,30,4) (35,30,7) (36,7,6) (37,36,5) (38,23,3) (40,22,3) (41,25,1) (42,36,7) (43,16,3) (44,15,2) (45,22,2) (46,29,4) (47,5,3) (48,22,6) (49,33,6) 
+-------Servers-------
+Id:0, Waiting time:1, Queue Length:1, Tasks:(24,2,1) 
+Id:1, Waiting time:2, Queue Length:1, Tasks:(25,2,2) 
+Id:2, Waiting time:7, Queue Length:1, Tasks:(39,2,7) 
+Id:3, Waiting time:0, Queue Length:0, Tasks:
+Id:4, Waiting time:0, Queue Length:0, Tasks:
+
+---Time:3---
+-------Waiting Clients-------
+(0,40,2) (1,39,5) (2,31,6) (3,8,3) (4,4,4) (5,19,7) (6,14,1) (7,21,1) (8,29,5) (9,22,6) (10,32,2) (11,25,4) (12,40,1) (13,16,1) (14,28,3) (15,23,5) (16,10,7) (17,38,2) (18,28,1) (19,40,2) (20,8,2) (21,31,1) (22,32,7) (23,9,7) (26,30,7) (27,20,6) (28,29,1) (29,17,7) (30,37,3) (31,34,5) (32,10,6) (33,18,6) (34,30,4) (35,30,7) (36,7,6) (37,36,5) (38,23,3) (40,22,3) (41,25,1) (42,36,7) (43,16,3) (44,15,2) (45,22,2) (46,29,4) (47,5,3) (48,22,6) (49,33,6) 
+-------Servers-------
+Id:0, Waiting time:0, Queue Length:0, Tasks:
+Id:1, Waiting time:2, Queue Length:1, Tasks:(25,2,2) 
+Id:2, Waiting time:7, Queue Length:1, Tasks:(39,2,7) 
+Id:3, Waiting time:0, Queue Length:0, Tasks:
+Id:4, Waiting time:0, Queue Length:0, Tasks:
+
+---Time:4---
+-------Waiting Clients-------
+(0,40,2) (1,39,5) (2,31,6) (3,8,3) (5,19,7) (6,14,1) (7,21,1) (8,29,5) (9,22,6) (10,32,2) (11,25,4) (12,40,1) (13,16,1) (14,28,3) (15,23,5) (16,10,7) (17,38,2) (18,28,1) (19,40,2) (20,8,2) (21,31,1) (22,32,7) (23,9,7) (26,30,7) (27,20,6) (28,29,1) (29,17,7) (30,37,3) (31,34,5) (32,10,6) (33,18,6) (34,30,4) (35,30,7) (36,7,6) (37,36,5) (38,23,3) (40,22,3) (41,25,1) (42,36,7) (43,16,3) (44,15,2) (45,22,2) (46,29,4) (47,5,3) (48,22,6) (49,33,6) 
+-------Servers-------
+Id:0, Waiting time:4, Queue Length:1, Tasks:(4,4,4) 
+Id:1, Waiting time:0, Queue Length:0, Tasks:
+Id:2, Waiting time:7, Queue Length:1, Tasks:(39,2,7) 
+Id:3, Waiting time:0, Queue Length:0, Tasks:
+Id:4, Waiting time:0, Queue Length:0, Tasks:
+
+---Time:5---
+-------Waiting Clients-------
+(0,40,2) (1,39,5) (2,31,6) (3,8,3) (5,19,7) (6,14,1) (7,21,1) (8,29,5) (9,22,6) (10,32,2) (11,25,4) (12,40,1) (13,16,1) (14,28,3) (15,23,5) (16,10,7) (17,38,2) (18,28,1) (19,40,2) (20,8,2) (21,31,1) (22,32,7) (23,9,7) (26,30,7) (27,20,6) (28,29,1) (29,17,7) (30,37,3) (31,34,5) (32,10,6) (33,18,6) (34,30,4) (35,30,7) (36,7,6) (37,36,5) (38,23,3) (40,22,3) (41,25,1) (42,36,7) (43,16,3) (44,15,2) (45,22,2) (46,29,4) (48,22,6) (49,33,6) 
+-------Servers-------
+Id:0, Waiting time:4, Queue Length:1, Tasks:(4,4,4) 
+Id:1, Waiting time:3, Queue Length:1, Tasks:(47,5,3) 
+Id:2, Waiting time:7, Queue Length:1, Tasks:(39,2,7) 
+Id:3, Waiting time:0, Queue Length:0, Tasks:
+Id:4, Waiting time:0, Queue Length:0, Tasks:
+
+---Time:6---
+-------Waiting Clients-------
+(0,40,2) (1,39,5) (2,31,6) (3,8,3) (5,19,7) (6,14,1) (7,21,1) (8,29,5) (9,22,6) (10,32,2) (11,25,4) (12,40,1) (13,16,1) (14,28,3) (15,23,5) (16,10,7) (17,38,2) (18,28,1) (19,40,2) (20,8,2) (21,31,1) (22,32,7) (23,9,7) (26,30,7) (27,20,6) (28,29,1) (29,17,7) (30,37,3) (31,34,5) (32,10,6) (33,18,6) (34,30,4) (35,30,7) (36,7,6) (37,36,5) (38,23,3) (40,22,3) (41,25,1) (42,36,7) (43,16,3) (44,15,2) (45,22,2) (46,29,4) (48,22,6) (49,33,6) 
+-------Servers-------
+Id:0, Waiting time:4, Queue Length:1, Tasks:(4,4,4) 
+Id:1, Waiting time:3, Queue Length:1, Tasks:(47,5,3) 
+Id:2, Waiting time:7, Queue Length:1, Tasks:(39,2,7) 
+Id:3, Waiting time:0, Queue Length:0, Tasks:
+Id:4, Waiting time:0, Queue Length:0, Tasks:
+
+---Time:7---
+-------Waiting Clients-------
+(0,40,2) (1,39,5) (2,31,6) (3,8,3) (5,19,7) (6,14,1) (7,21,1) (8,29,5) (9,22,6) (10,32,2) (11,25,4) (12,40,1) (13,16,1) (14,28,3) (15,23,5) (16,10,7) (17,38,2) (18,28,1) (19,40,2) (20,8,2) (21,31,1) (22,32,7) (23,9,7) (26,30,7) (27,20,6) (28,29,1) (29,17,7) (30,37,3) (31,34,5) (32,10,6) (33,18,6) (34,30,4) (35,30,7) (37,36,5) (38,23,3) (40,22,3) (41,25,1) (42,36,7) (43,16,3) (44,15,2) (45,22,2) (46,29,4) (48,22,6) (49,33,6) 
+-------Servers-------
+Id:0, Waiting time:4, Queue Length:1, Tasks:(4,4,4) 
+Id:1, Waiting time:3, Queue Length:1, Tasks:(47,5,3) 
+Id:2, Waiting time:7, Queue Length:1, Tasks:(39,2,7) 
+Id:3, Waiting time:6, Queue Length:1, Tasks:(36,7,6) 
+Id:4, Waiting time:0, Queue Length:0, Tasks:
+
+---Time:8---
+-------Waiting Clients-------
+(0,40,2) (1,39,5) (2,31,6) (5,19,7) (6,14,1) (7,21,1) (8,29,5) (9,22,6) (10,32,2) (11,25,4) (12,40,1) (13,16,1) (14,28,3) (15,23,5) (16,10,7) (17,38,2) (18,28,1) (19,40,2) (21,31,1) (22,32,7) (23,9,7) (26,30,7) (27,20,6) (28,29,1) (29,17,7) (30,37,3) (31,34,5) (32,10,6) (33,18,6) (34,30,4) (35,30,7) (37,36,5) (38,23,3) (40,22,3) (41,25,1) (42,36,7) (43,16,3) (44,15,2) (45,22,2) (46,29,4) (48,22,6) (49,33,6) 
+-------Servers-------
+Id:0, Waiting time:3, Queue Length:1, Tasks:(3,8,3) 
+Id:1, Waiting time:2, Queue Length:1, Tasks:(20,8,2) 
+Id:2, Waiting time:7, Queue Length:1, Tasks:(39,2,7) 
+Id:3, Waiting time:6, Queue Length:1, Tasks:(36,7,6) 
+Id:4, Waiting time:0, Queue Length:0, Tasks:
+
+---Time:9---
+-------Waiting Clients-------
+(0,40,2) (1,39,5) (2,31,6) (5,19,7) (6,14,1) (7,21,1) (8,29,5) (9,22,6) (10,32,2) (11,25,4) (12,40,1) (13,16,1) (14,28,3) (15,23,5) (16,10,7) (17,38,2) (18,28,1) (19,40,2) (21,31,1) (22,32,7) (26,30,7) (27,20,6) (28,29,1) (29,17,7) (30,37,3) (31,34,5) (32,10,6) (33,18,6) (34,30,4) (35,30,7) (37,36,5) (38,23,3) (40,22,3) (41,25,1) (42,36,7) (43,16,3) (44,15,2) (45,22,2) (46,29,4) (48,22,6) (49,33,6) 
+-------Servers-------
+Id:0, Waiting time:3, Queue Length:1, Tasks:(3,8,3) 
+Id:1, Waiting time:2, Queue Length:1, Tasks:(20,8,2) 
+Id:2, Waiting time:7, Queue Length:1, Tasks:(23,9,7) 
+Id:3, Waiting time:6, Queue Length:1, Tasks:(36,7,6) 
+Id:4, Waiting time:0, Queue Length:0, Tasks:
+
+---Time:10---
+-------Waiting Clients-------
+(0,40,2) (1,39,5) (2,31,6) (5,19,7) (6,14,1) (7,21,1) (8,29,5) (9,22,6) (10,32,2) (11,25,4) (12,40,1) (13,16,1) (14,28,3) (15,23,5) (17,38,2) (18,28,1) (19,40,2) (21,31,1) (22,32,7) (26,30,7) (27,20,6) (28,29,1) (29,17,7) (30,37,3) (31,34,5) (33,18,6) (34,30,4) (35,30,7) (37,36,5) (38,23,3) (40,22,3) (41,25,1) (42,36,7) (43,16,3) (44,15,2) (45,22,2) (46,29,4) (48,22,6) (49,33,6) 
+-------Servers-------
+Id:0, Waiting time:3, Queue Length:1, Tasks:(3,8,3) 
+Id:1, Waiting time:7, Queue Length:1, Tasks:(16,10,7) 
+Id:2, Waiting time:7, Queue Length:1, Tasks:(23,9,7) 
+Id:3, Waiting time:6, Queue Length:1, Tasks:(36,7,6) 
+Id:4, Waiting time:6, Queue Length:1, Tasks:(32,10,6) 
+
+---Time:11---
+-------Waiting Clients-------
+(0,40,2) (1,39,5) (2,31,6) (5,19,7) (6,14,1) (7,21,1) (8,29,5) (9,22,6) (10,32,2) (11,25,4) (12,40,1) (13,16,1) (14,28,3) (15,23,5) (17,38,2) (18,28,1) (19,40,2) (21,31,1) (22,32,7) (26,30,7) (27,20,6) (28,29,1) (29,17,7) (30,37,3) (31,34,5) (33,18,6) (34,30,4) (35,30,7) (37,36,5) (38,23,3) (40,22,3) (41,25,1) (42,36,7) (43,16,3) (44,15,2) (45,22,2) (46,29,4) (48,22,6) (49,33,6) 
+-------Servers-------
+Id:0, Waiting time:0, Queue Length:0, Tasks:
+Id:1, Waiting time:7, Queue Length:1, Tasks:(16,10,7) 
+Id:2, Waiting time:7, Queue Length:1, Tasks:(23,9,7) 
+Id:3, Waiting time:6, Queue Length:1, Tasks:(36,7,6) 
+Id:4, Waiting time:6, Queue Length:1, Tasks:(32,10,6) 
+
+---Time:12---
+-------Waiting Clients-------
+(0,40,2) (1,39,5) (2,31,6) (5,19,7) (6,14,1) (7,21,1) (8,29,5) (9,22,6) (10,32,2) (11,25,4) (12,40,1) (13,16,1) (14,28,3) (15,23,5) (17,38,2) (18,28,1) (19,40,2) (21,31,1) (22,32,7) (26,30,7) (27,20,6) (28,29,1) (29,17,7) (30,37,3) (31,34,5) (33,18,6) (34,30,4) (35,30,7) (37,36,5) (38,23,3) (40,22,3) (41,25,1) (42,36,7) (43,16,3) (44,15,2) (45,22,2) (46,29,4) (48,22,6) (49,33,6) 
+-------Servers-------
+Id:0, Waiting time:0, Queue Length:0, Tasks:
+Id:1, Waiting time:7, Queue Length:1, Tasks:(16,10,7) 
+Id:2, Waiting time:7, Queue Length:1, Tasks:(23,9,7) 
+Id:3, Waiting time:6, Queue Length:1, Tasks:(36,7,6) 
+Id:4, Waiting time:6, Queue Length:1, Tasks:(32,10,6) 
+
+---Time:13---
+-------Waiting Clients-------
+(0,40,2) (1,39,5) (2,31,6) (5,19,7) (6,14,1) (7,21,1) (8,29,5) (9,22,6) (10,32,2) (11,25,4) (12,40,1) (13,16,1) (14,28,3) (15,23,5) (17,38,2) (18,28,1) (19,40,2) (21,31,1) (22,32,7) (26,30,7) (27,20,6) (28,29,1) (29,17,7) (30,37,3) (31,34,5) (33,18,6) (34,30,4) (35,30,7) (37,36,5) (38,23,3) (40,22,3) (41,25,1) (42,36,7) (43,16,3) (44,15,2) (45,22,2) (46,29,4) (48,22,6) (49,33,6) 
+-------Servers-------
+Id:0, Waiting time:0, Queue Length:0, Tasks:
+Id:1, Waiting time:7, Queue Length:1, Tasks:(16,10,7) 
+Id:2, Waiting time:7, Queue Length:1, Tasks:(23,9,7) 
+Id:3, Waiting time:0, Queue Length:0, Tasks:
+Id:4, Waiting time:6, Queue Length:1, Tasks:(32,10,6) 
+
+---Time:14---
+-------Waiting Clients-------
+(0,40,2) (1,39,5) (2,31,6) (5,19,7) (7,21,1) (8,29,5) (9,22,6) (10,32,2) (11,25,4) (12,40,1) (13,16,1) (14,28,3) (15,23,5) (17,38,2) (18,28,1) (19,40,2) (21,31,1) (22,32,7) (26,30,7) (27,20,6) (28,29,1) (29,17,7) (30,37,3) (31,34,5) (33,18,6) (34,30,4) (35,30,7) (37,36,5) (38,23,3) (40,22,3) (41,25,1) (42,36,7) (43,16,3) (44,15,2) (45,22,2) (46,29,4) (48,22,6) (49,33,6) 
+-------Servers-------
+Id:0, Waiting time:1, Queue Length:1, Tasks:(6,14,1) 
+Id:1, Waiting time:7, Queue Length:1, Tasks:(16,10,7) 
+Id:2, Waiting time:7, Queue Length:1, Tasks:(23,9,7) 
+Id:3, Waiting time:0, Queue Length:0, Tasks:
+Id:4, Waiting time:6, Queue Length:1, Tasks:(32,10,6) 
+
+---Time:15---
+-------Waiting Clients-------
+(0,40,2) (1,39,5) (2,31,6) (5,19,7) (7,21,1) (8,29,5) (9,22,6) (10,32,2) (11,25,4) (12,40,1) (13,16,1) (14,28,3) (15,23,5) (17,38,2) (18,28,1) (19,40,2) (21,31,1) (22,32,7) (26,30,7) (27,20,6) (28,29,1) (29,17,7) (30,37,3) (31,34,5) (33,18,6) (34,30,4) (35,30,7) (37,36,5) (38,23,3) (40,22,3) (41,25,1) (42,36,7) (43,16,3) (45,22,2) (46,29,4) (48,22,6) (49,33,6) 
+-------Servers-------
+Id:0, Waiting time:0, Queue Length:0, Tasks:
+Id:1, Waiting time:7, Queue Length:1, Tasks:(16,10,7) 
+Id:2, Waiting time:7, Queue Length:1, Tasks:(23,9,7) 
+Id:3, Waiting time:2, Queue Length:1, Tasks:(44,15,2) 
+Id:4, Waiting time:6, Queue Length:1, Tasks:(32,10,6) 
+
+---Time:16---
+-------Waiting Clients-------
+(0,40,2) (1,39,5) (2,31,6) (5,19,7) (7,21,1) (8,29,5) (9,22,6) (10,32,2) (11,25,4) (12,40,1) (14,28,3) (15,23,5) (17,38,2) (18,28,1) (19,40,2) (21,31,1) (22,32,7) (26,30,7) (27,20,6) (28,29,1) (29,17,7) (30,37,3) (31,34,5) (33,18,6) (34,30,4) (35,30,7) (37,36,5) (38,23,3) (40,22,3) (41,25,1) (42,36,7) (45,22,2) (46,29,4) (48,22,6) (49,33,6) 
+-------Servers-------
+Id:0, Waiting time:1, Queue Length:1, Tasks:(13,16,1) 
+Id:1, Waiting time:7, Queue Length:1, Tasks:(16,10,7) 
+Id:2, Waiting time:3, Queue Length:1, Tasks:(43,16,3) 
+Id:3, Waiting time:2, Queue Length:1, Tasks:(44,15,2) 
+Id:4, Waiting time:0, Queue Length:0, Tasks:
+
+---Time:17---
+-------Waiting Clients-------
+(0,40,2) (1,39,5) (2,31,6) (5,19,7) (7,21,1) (8,29,5) (9,22,6) (10,32,2) (11,25,4) (12,40,1) (14,28,3) (15,23,5) (17,38,2) (18,28,1) (19,40,2) (21,31,1) (22,32,7) (26,30,7) (27,20,6) (28,29,1) (30,37,3) (31,34,5) (33,18,6) (34,30,4) (35,30,7) (37,36,5) (38,23,3) (40,22,3) (41,25,1) (42,36,7) (45,22,2) (46,29,4) (48,22,6) (49,33,6) 
+-------Servers-------
+Id:0, Waiting time:7, Queue Length:1, Tasks:(29,17,7) 
+Id:1, Waiting time:0, Queue Length:0, Tasks:
+Id:2, Waiting time:3, Queue Length:1, Tasks:(43,16,3) 
+Id:3, Waiting time:0, Queue Length:0, Tasks:
+Id:4, Waiting time:0, Queue Length:0, Tasks:
+
+---Time:18---
+-------Waiting Clients-------
+(0,40,2) (1,39,5) (2,31,6) (5,19,7) (7,21,1) (8,29,5) (9,22,6) (10,32,2) (11,25,4) (12,40,1) (14,28,3) (15,23,5) (17,38,2) (18,28,1) (19,40,2) (21,31,1) (22,32,7) (26,30,7) (27,20,6) (28,29,1) (30,37,3) (31,34,5) (34,30,4) (35,30,7) (37,36,5) (38,23,3) (40,22,3) (41,25,1) (42,36,7) (45,22,2) (46,29,4) (48,22,6) (49,33,6) 
+-------Servers-------
+Id:0, Waiting time:7, Queue Length:1, Tasks:(29,17,7) 
+Id:1, Waiting time:6, Queue Length:1, Tasks:(33,18,6) 
+Id:2, Waiting time:3, Queue Length:1, Tasks:(43,16,3) 
+Id:3, Waiting time:0, Queue Length:0, Tasks:
+Id:4, Waiting time:0, Queue Length:0, Tasks:
+
+---Time:19---
+-------Waiting Clients-------
+(0,40,2) (1,39,5) (2,31,6) (7,21,1) (8,29,5) (9,22,6) (10,32,2) (11,25,4) (12,40,1) (14,28,3) (15,23,5) (17,38,2) (18,28,1) (19,40,2) (21,31,1) (22,32,7) (26,30,7) (27,20,6) (28,29,1) (30,37,3) (31,34,5) (34,30,4) (35,30,7) (37,36,5) (38,23,3) (40,22,3) (41,25,1) (42,36,7) (45,22,2) (46,29,4) (48,22,6) (49,33,6) 
+-------Servers-------
+Id:0, Waiting time:7, Queue Length:1, Tasks:(29,17,7) 
+Id:1, Waiting time:6, Queue Length:1, Tasks:(33,18,6) 
+Id:2, Waiting time:7, Queue Length:1, Tasks:(5,19,7) 
+Id:3, Waiting time:0, Queue Length:0, Tasks:
+Id:4, Waiting time:0, Queue Length:0, Tasks:
+
+---Time:20---
+-------Waiting Clients-------
+(0,40,2) (1,39,5) (2,31,6) (7,21,1) (8,29,5) (9,22,6) (10,32,2) (11,25,4) (12,40,1) (14,28,3) (15,23,5) (17,38,2) (18,28,1) (19,40,2) (21,31,1) (22,32,7) (26,30,7) (28,29,1) (30,37,3) (31,34,5) (34,30,4) (35,30,7) (37,36,5) (38,23,3) (40,22,3) (41,25,1) (42,36,7) (45,22,2) (46,29,4) (48,22,6) (49,33,6) 
+-------Servers-------
+Id:0, Waiting time:7, Queue Length:1, Tasks:(29,17,7) 
+Id:1, Waiting time:6, Queue Length:1, Tasks:(33,18,6) 
+Id:2, Waiting time:7, Queue Length:1, Tasks:(5,19,7) 
+Id:3, Waiting time:6, Queue Length:1, Tasks:(27,20,6) 
+Id:4, Waiting time:0, Queue Length:0, Tasks:
+
+---Time:21---
+-------Waiting Clients-------
+(0,40,2) (1,39,5) (2,31,6) (8,29,5) (9,22,6) (10,32,2) (11,25,4) (12,40,1) (14,28,3) (15,23,5) (17,38,2) (18,28,1) (19,40,2) (21,31,1) (22,32,7) (26,30,7) (28,29,1) (30,37,3) (31,34,5) (34,30,4) (35,30,7) (37,36,5) (38,23,3) (40,22,3) (41,25,1) (42,36,7) (45,22,2) (46,29,4) (48,22,6) (49,33,6) 
+-------Servers-------
+Id:0, Waiting time:7, Queue Length:1, Tasks:(29,17,7) 
+Id:1, Waiting time:6, Queue Length:1, Tasks:(33,18,6) 
+Id:2, Waiting time:7, Queue Length:1, Tasks:(5,19,7) 
+Id:3, Waiting time:6, Queue Length:1, Tasks:(27,20,6) 
+Id:4, Waiting time:1, Queue Length:1, Tasks:(7,21,1) 
+
+---Time:22---
+-------Waiting Clients-------
+(0,40,2) (1,39,5) (2,31,6) (8,29,5) (10,32,2) (11,25,4) (12,40,1) (14,28,3) (15,23,5) (17,38,2) (18,28,1) (19,40,2) (21,31,1) (22,32,7) (26,30,7) (28,29,1) (30,37,3) (31,34,5) (34,30,4) (35,30,7) (37,36,5) (38,23,3) (41,25,1) (42,36,7) (46,29,4) (49,33,6) 
+-------Servers-------
+Id:0, Waiting time:7, Queue Length:1, Tasks:(29,17,7) 
+Id:1, Waiting time:9, Queue Length:2, Tasks:(33,18,6) (40,22,3) 
+Id:2, Waiting time:7, Queue Length:1, Tasks:(5,19,7) 
+Id:3, Waiting time:8, Queue Length:2, Tasks:(27,20,6) (45,22,2) 
+Id:4, Waiting time:12, Queue Length:2, Tasks:(9,22,6) (48,22,6) 
+
+---Time:23---
+-------Waiting Clients-------
+(0,40,2) (1,39,5) (2,31,6) (8,29,5) (10,32,2) (11,25,4) (12,40,1) (14,28,3) (17,38,2) (18,28,1) (19,40,2) (21,31,1) (22,32,7) (26,30,7) (28,29,1) (30,37,3) (31,34,5) (34,30,4) (35,30,7) (37,36,5) (41,25,1) (42,36,7) (46,29,4) (49,33,6) 
+-------Servers-------
+Id:0, Waiting time:12, Queue Length:2, Tasks:(29,17,7) (15,23,5) 
+Id:1, Waiting time:9, Queue Length:2, Tasks:(33,18,6) (40,22,3) 
+Id:2, Waiting time:10, Queue Length:2, Tasks:(5,19,7) (38,23,3) 
+Id:3, Waiting time:8, Queue Length:2, Tasks:(27,20,6) (45,22,2) 
+Id:4, Waiting time:12, Queue Length:2, Tasks:(9,22,6) (48,22,6) 
+
+---Time:24---
+-------Waiting Clients-------
+(0,40,2) (1,39,5) (2,31,6) (8,29,5) (10,32,2) (11,25,4) (12,40,1) (14,28,3) (17,38,2) (18,28,1) (19,40,2) (21,31,1) (22,32,7) (26,30,7) (28,29,1) (30,37,3) (31,34,5) (34,30,4) (35,30,7) (37,36,5) (41,25,1) (42,36,7) (46,29,4) (49,33,6) 
+-------Servers-------
+Id:0, Waiting time:5, Queue Length:1, Tasks:(15,23,5) 
+Id:1, Waiting time:3, Queue Length:1, Tasks:(40,22,3) 
+Id:2, Waiting time:10, Queue Length:2, Tasks:(5,19,7) (38,23,3) 
+Id:3, Waiting time:8, Queue Length:2, Tasks:(27,20,6) (45,22,2) 
+Id:4, Waiting time:12, Queue Length:2, Tasks:(9,22,6) (48,22,6) 
+
+---Time:25---
+-------Waiting Clients-------
+(0,40,2) (1,39,5) (2,31,6) (8,29,5) (10,32,2) (12,40,1) (14,28,3) (17,38,2) (18,28,1) (19,40,2) (21,31,1) (22,32,7) (26,30,7) (28,29,1) (30,37,3) (31,34,5) (34,30,4) (35,30,7) (37,36,5) (42,36,7) (46,29,4) (49,33,6) 
+-------Servers-------
+Id:0, Waiting time:6, Queue Length:2, Tasks:(15,23,5) (41,25,1) 
+Id:1, Waiting time:7, Queue Length:2, Tasks:(40,22,3) (11,25,4) 
+Id:2, Waiting time:10, Queue Length:2, Tasks:(5,19,7) (38,23,3) 
+Id:3, Waiting time:8, Queue Length:2, Tasks:(27,20,6) (45,22,2) 
+Id:4, Waiting time:12, Queue Length:2, Tasks:(9,22,6) (48,22,6) 
+
+---Time:26---
+-------Waiting Clients-------
+(0,40,2) (1,39,5) (2,31,6) (8,29,5) (10,32,2) (12,40,1) (14,28,3) (17,38,2) (18,28,1) (19,40,2) (21,31,1) (22,32,7) (26,30,7) (28,29,1) (30,37,3) (31,34,5) (34,30,4) (35,30,7) (37,36,5) (42,36,7) (46,29,4) (49,33,6) 
+-------Servers-------
+Id:0, Waiting time:6, Queue Length:2, Tasks:(15,23,5) (41,25,1) 
+Id:1, Waiting time:7, Queue Length:2, Tasks:(40,22,3) (11,25,4) 
+Id:2, Waiting time:3, Queue Length:1, Tasks:(38,23,3) 
+Id:3, Waiting time:2, Queue Length:1, Tasks:(45,22,2) 
+Id:4, Waiting time:12, Queue Length:2, Tasks:(9,22,6) (48,22,6) 
+
+---Time:27---
+-------Waiting Clients-------
+(0,40,2) (1,39,5) (2,31,6) (8,29,5) (10,32,2) (12,40,1) (14,28,3) (17,38,2) (18,28,1) (19,40,2) (21,31,1) (22,32,7) (26,30,7) (28,29,1) (30,37,3) (31,34,5) (34,30,4) (35,30,7) (37,36,5) (42,36,7) (46,29,4) (49,33,6) 
+-------Servers-------
+Id:0, Waiting time:6, Queue Length:2, Tasks:(15,23,5) (41,25,1) 
+Id:1, Waiting time:4, Queue Length:1, Tasks:(11,25,4) 
+Id:2, Waiting time:3, Queue Length:1, Tasks:(38,23,3) 
+Id:3, Waiting time:2, Queue Length:1, Tasks:(45,22,2) 
+Id:4, Waiting time:12, Queue Length:2, Tasks:(9,22,6) (48,22,6) 
+
+---Time:28---
+-------Waiting Clients-------
+(0,40,2) (1,39,5) (2,31,6) (8,29,5) (10,32,2) (12,40,1) (17,38,2) (19,40,2) (21,31,1) (22,32,7) (26,30,7) (28,29,1) (30,37,3) (31,34,5) (34,30,4) (35,30,7) (37,36,5) (42,36,7) (46,29,4) (49,33,6) 
+-------Servers-------
+Id:0, Waiting time:6, Queue Length:2, Tasks:(15,23,5) (41,25,1) 
+Id:1, Waiting time:4, Queue Length:1, Tasks:(11,25,4) 
+Id:2, Waiting time:4, Queue Length:2, Tasks:(38,23,3) (18,28,1) 
+Id:3, Waiting time:3, Queue Length:1, Tasks:(14,28,3) 
+Id:4, Waiting time:6, Queue Length:1, Tasks:(48,22,6) 
+
+---Time:29---
+-------Waiting Clients-------
+(0,40,2) (1,39,5) (2,31,6) (10,32,2) (12,40,1) (17,38,2) (19,40,2) (21,31,1) (22,32,7) (26,30,7) (30,37,3) (31,34,5) (34,30,4) (35,30,7) (37,36,5) (42,36,7) (49,33,6) 
+-------Servers-------
+Id:0, Waiting time:6, Queue Length:2, Tasks:(41,25,1) (8,29,5) 
+Id:1, Waiting time:4, Queue Length:1, Tasks:(11,25,4) 
+Id:2, Waiting time:6, Queue Length:3, Tasks:(18,28,1) (28,29,1) (46,29,4) 
+Id:3, Waiting time:3, Queue Length:1, Tasks:(14,28,3) 
+Id:4, Waiting time:6, Queue Length:1, Tasks:(48,22,6) 
+
+---Time:30---
+-------Waiting Clients-------
+(0,40,2) (1,39,5) (2,31,6) (10,32,2) (12,40,1) (17,38,2) (19,40,2) (21,31,1) (22,32,7) (30,37,3) (31,34,5) (37,36,5) (42,36,7) (49,33,6) 
+-------Servers-------
+Id:0, Waiting time:12, Queue Length:2, Tasks:(8,29,5) (35,30,7) 
+Id:1, Waiting time:8, Queue Length:2, Tasks:(11,25,4) (34,30,4) 
+Id:2, Waiting time:5, Queue Length:2, Tasks:(28,29,1) (46,29,4) 
+Id:3, Waiting time:10, Queue Length:2, Tasks:(14,28,3) (26,30,7) 
+Id:4, Waiting time:6, Queue Length:1, Tasks:(48,22,6) 
+
+---Time:31---
+-------Waiting Clients-------
+(0,40,2) (1,39,5) (10,32,2) (12,40,1) (17,38,2) (19,40,2) (22,32,7) (30,37,3) (31,34,5) (37,36,5) (42,36,7) (49,33,6) 
+-------Servers-------
+Id:0, Waiting time:12, Queue Length:2, Tasks:(8,29,5) (35,30,7) 
+Id:1, Waiting time:10, Queue Length:2, Tasks:(34,30,4) (2,31,6) 
+Id:2, Waiting time:5, Queue Length:2, Tasks:(46,29,4) (21,31,1) 
+Id:3, Waiting time:7, Queue Length:1, Tasks:(26,30,7) 
+Id:4, Waiting time:6, Queue Length:1, Tasks:(48,22,6) 
+
+---Time:32---
+-------Waiting Clients-------
+(0,40,2) (1,39,5) (12,40,1) (17,38,2) (19,40,2) (30,37,3) (31,34,5) (37,36,5) (42,36,7) (49,33,6) 
+-------Servers-------
+Id:0, Waiting time:12, Queue Length:2, Tasks:(8,29,5) (35,30,7) 
+Id:1, Waiting time:10, Queue Length:2, Tasks:(34,30,4) (2,31,6) 
+Id:2, Waiting time:7, Queue Length:3, Tasks:(46,29,4) (21,31,1) (10,32,2) 
+Id:3, Waiting time:7, Queue Length:1, Tasks:(26,30,7) 
+Id:4, Waiting time:13, Queue Length:2, Tasks:(48,22,6) (22,32,7) 
+
+---Time:33---
+-------Waiting Clients-------
+(0,40,2) (1,39,5) (12,40,1) (17,38,2) (19,40,2) (30,37,3) (31,34,5) (37,36,5) (42,36,7) 
+-------Servers-------
+Id:0, Waiting time:12, Queue Length:2, Tasks:(8,29,5) (35,30,7) 
+Id:1, Waiting time:10, Queue Length:2, Tasks:(34,30,4) (2,31,6) 
+Id:2, Waiting time:13, Queue Length:4, Tasks:(46,29,4) (21,31,1) (10,32,2) (49,33,6) 
+Id:3, Waiting time:7, Queue Length:1, Tasks:(26,30,7) 
+Id:4, Waiting time:7, Queue Length:1, Tasks:(22,32,7) 
+
+---Time:34---
+-------Waiting Clients-------
+(0,40,2) (1,39,5) (12,40,1) (17,38,2) (19,40,2) (30,37,3) (37,36,5) (42,36,7) 
+-------Servers-------
+Id:0, Waiting time:7, Queue Length:1, Tasks:(35,30,7) 
+Id:1, Waiting time:11, Queue Length:2, Tasks:(2,31,6) (31,34,5) 
+Id:2, Waiting time:9, Queue Length:3, Tasks:(21,31,1) (10,32,2) (49,33,6) 
+Id:3, Waiting time:7, Queue Length:1, Tasks:(26,30,7) 
+Id:4, Waiting time:7, Queue Length:1, Tasks:(22,32,7) 
+
+---Time:35---
+-------Waiting Clients-------
+(0,40,2) (1,39,5) (12,40,1) (17,38,2) (19,40,2) (30,37,3) (37,36,5) (42,36,7) 
+-------Servers-------
+Id:0, Waiting time:7, Queue Length:1, Tasks:(35,30,7) 
+Id:1, Waiting time:11, Queue Length:2, Tasks:(2,31,6) (31,34,5) 
+Id:2, Waiting time:8, Queue Length:2, Tasks:(10,32,2) (49,33,6) 
+Id:3, Waiting time:7, Queue Length:1, Tasks:(26,30,7) 
+Id:4, Waiting time:7, Queue Length:1, Tasks:(22,32,7) 
+
+---Time:36---
+-------Waiting Clients-------
+(0,40,2) (1,39,5) (12,40,1) (17,38,2) (19,40,2) (30,37,3) 
+-------Servers-------
+Id:0, Waiting time:12, Queue Length:2, Tasks:(35,30,7) (37,36,5) 
+Id:1, Waiting time:11, Queue Length:2, Tasks:(2,31,6) (31,34,5) 
+Id:2, Waiting time:8, Queue Length:2, Tasks:(10,32,2) (49,33,6) 
+Id:3, Waiting time:14, Queue Length:2, Tasks:(26,30,7) (42,36,7) 
+Id:4, Waiting time:7, Queue Length:1, Tasks:(22,32,7) 
+
+---Time:37---
+-------Waiting Clients-------
+(0,40,2) (1,39,5) (12,40,1) (17,38,2) (19,40,2) 
+-------Servers-------
+Id:0, Waiting time:12, Queue Length:2, Tasks:(35,30,7) (37,36,5) 
+Id:1, Waiting time:11, Queue Length:2, Tasks:(2,31,6) (31,34,5) 
+Id:2, Waiting time:6, Queue Length:1, Tasks:(49,33,6) 
+Id:3, Waiting time:14, Queue Length:2, Tasks:(26,30,7) (42,36,7) 
+Id:4, Waiting time:10, Queue Length:2, Tasks:(22,32,7) (30,37,3) 
+
+---Time:38---
+-------Waiting Clients-------
+(0,40,2) (1,39,5) (12,40,1) (19,40,2) 
+-------Servers-------
+Id:0, Waiting time:12, Queue Length:2, Tasks:(35,30,7) (37,36,5) 
+Id:1, Waiting time:11, Queue Length:2, Tasks:(2,31,6) (31,34,5) 
+Id:2, Waiting time:8, Queue Length:2, Tasks:(49,33,6) (17,38,2) 
+Id:3, Waiting time:7, Queue Length:1, Tasks:(42,36,7) 
+Id:4, Waiting time:10, Queue Length:2, Tasks:(22,32,7) (30,37,3) 
+
+---Time:39---
+-------Waiting Clients-------
+(0,40,2) (12,40,1) (19,40,2) 
+-------Servers-------
+Id:0, Waiting time:12, Queue Length:2, Tasks:(35,30,7) (37,36,5) 
+Id:1, Waiting time:11, Queue Length:2, Tasks:(2,31,6) (31,34,5) 
+Id:2, Waiting time:8, Queue Length:2, Tasks:(49,33,6) (17,38,2) 
+Id:3, Waiting time:12, Queue Length:2, Tasks:(42,36,7) (1,39,5) 
+Id:4, Waiting time:10, Queue Length:2, Tasks:(22,32,7) (30,37,3) 
+
+---Time:40---
+-------Waiting Clients-------
+
+-------Servers-------
+Id:0, Waiting time:12, Queue Length:2, Tasks:(35,30,7) (37,36,5) 
+Id:1, Waiting time:6, Queue Length:2, Tasks:(31,34,5) (12,40,1) 
+Id:2, Waiting time:8, Queue Length:2, Tasks:(49,33,6) (17,38,2) 
+Id:3, Waiting time:12, Queue Length:2, Tasks:(42,36,7) (1,39,5) 
+Id:4, Waiting time:7, Queue Length:3, Tasks:(30,37,3) (0,40,2) (19,40,2) 
+
+---Time:41---
+-------Waiting Clients-------
+
+-------Servers-------
+Id:0, Waiting time:5, Queue Length:1, Tasks:(37,36,5) 
+Id:1, Waiting time:6, Queue Length:2, Tasks:(31,34,5) (12,40,1) 
+Id:2, Waiting time:8, Queue Length:2, Tasks:(49,33,6) (17,38,2) 
+Id:3, Waiting time:12, Queue Length:2, Tasks:(42,36,7) (1,39,5) 
+Id:4, Waiting time:7, Queue Length:3, Tasks:(30,37,3) (0,40,2) (19,40,2) 
+
+---Time:42---
+-------Waiting Clients-------
+
+-------Servers-------
+Id:0, Waiting time:5, Queue Length:1, Tasks:(37,36,5) 
+Id:1, Waiting time:6, Queue Length:2, Tasks:(31,34,5) (12,40,1) 
+Id:2, Waiting time:8, Queue Length:2, Tasks:(49,33,6) (17,38,2) 
+Id:3, Waiting time:12, Queue Length:2, Tasks:(42,36,7) (1,39,5) 
+Id:4, Waiting time:7, Queue Length:3, Tasks:(30,37,3) (0,40,2) (19,40,2) 
+
+---Time:43---
+-------Waiting Clients-------
+
+-------Servers-------
+Id:0, Waiting time:5, Queue Length:1, Tasks:(37,36,5) 
+Id:1, Waiting time:6, Queue Length:2, Tasks:(31,34,5) (12,40,1) 
+Id:2, Waiting time:2, Queue Length:1, Tasks:(17,38,2) 
+Id:3, Waiting time:12, Queue Length:2, Tasks:(42,36,7) (1,39,5) 
+Id:4, Waiting time:4, Queue Length:2, Tasks:(0,40,2) (19,40,2) 
+
+---Time:44---
+-------Waiting Clients-------
+
+-------Servers-------
+Id:0, Waiting time:5, Queue Length:1, Tasks:(37,36,5) 
+Id:1, Waiting time:6, Queue Length:2, Tasks:(31,34,5) (12,40,1) 
+Id:2, Waiting time:2, Queue Length:1, Tasks:(17,38,2) 
+Id:3, Waiting time:5, Queue Length:1, Tasks:(1,39,5) 
+Id:4, Waiting time:4, Queue Length:2, Tasks:(0,40,2) (19,40,2) 
+
+---Time:45---
+-------Waiting Clients-------
+
+-------Servers-------
+Id:0, Waiting time:5, Queue Length:1, Tasks:(37,36,5) 
+Id:1, Waiting time:1, Queue Length:1, Tasks:(12,40,1) 
+Id:2, Waiting time:0, Queue Length:0, Tasks:
+Id:3, Waiting time:5, Queue Length:1, Tasks:(1,39,5) 
+Id:4, Waiting time:2, Queue Length:1, Tasks:(19,40,2) 
+
+---Time:46---
+-------Waiting Clients-------
+
+-------Servers-------
+Id:0, Waiting time:0, Queue Length:0, Tasks:
+Id:1, Waiting time:0, Queue Length:0, Tasks:
+Id:2, Waiting time:0, Queue Length:0, Tasks:
+Id:3, Waiting time:5, Queue Length:1, Tasks:(1,39,5) 
+Id:4, Waiting time:2, Queue Length:1, Tasks:(19,40,2) 
+
+---Time:47---
+-------Waiting Clients-------
+
+-------Servers-------
+Id:0, Waiting time:0, Queue Length:0, Tasks:
+Id:1, Waiting time:0, Queue Length:0, Tasks:
+Id:2, Waiting time:0, Queue Length:0, Tasks:
+Id:3, Waiting time:5, Queue Length:1, Tasks:(1,39,5) 
+Id:4, Waiting time:0, Queue Length:0, Tasks:
+
+---Time:48---
+-------Waiting Clients-------
+
+-------Servers-------
+Id:0, Waiting time:0, Queue Length:0, Tasks:
+Id:1, Waiting time:0, Queue Length:0, Tasks:
+Id:2, Waiting time:0, Queue Length:0, Tasks:
+Id:3, Waiting time:5, Queue Length:1, Tasks:(1,39,5) 
+Id:4, Waiting time:0, Queue Length:0, Tasks:
+
+---Time:49---
+-------End of simulation-------
+Average service time:3.96
+Average waiting time:5.3795924
+Peak hour:37, with a waiting time of:10.6
