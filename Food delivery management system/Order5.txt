@@ -1,0 +1,5 @@
+OrderId:5, ClientId:1, Order Date:05/05/2022 21:07:07
+Name:Tequila Sunrise II, Rating:0.0, Calories:204, Proteins:1, Fats:0, Sodium:4, Price:85
+Name:Creamy Rosemary Turkey and Vegetable Potpie with Herbed Dumplings, Rating:4.375, Calories:428, Proteins:35, Fats:17, Sodium:611, Price:66
+
+Total price of the order:151

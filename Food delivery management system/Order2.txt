@@ -1,0 +1,6 @@
+OrderId:2, ClientId:1, Order Date:03/05/2022 15:36:36
+Name:Peanut Butter Tart with Caramel-Peanut Glaze, Rating:3.75, Calories:446, Proteins:6, Fats:33, Sodium:45, Price:94
+Name:Crab Fat-Caramel Wings, Rating:3.75, Calories:1159, Proteins:17, Fats:48, Sodium:637, Price:51
+Name:Rump of Beef to Stew, Rating:5.0, Calories:678, Proteins:39, Fats:55, Sodium:1395, Price:66
+
+Total price of the order:211

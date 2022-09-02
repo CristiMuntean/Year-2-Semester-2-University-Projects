@@ -1,0 +1,6 @@
+OrderId:6, ClientId:1, Order Date:06/05/2022 10:03:01
+Name:Pasta Primavera Pronto, Rating:4.375, Calories:741, Proteins:64, Fats:51, Sodium:955, Price:38
+Name:Mint Whipped Cream, Rating:4.375, Calories:323, Proteins:3, Fats:34, Sodium:28, Price:27
+Name:Casserole of Turkey with Rice, Rating:3.125, Calories:502, Proteins:30, Fats:13, Sodium:1797, Price:24
+
+Total price of the order:89

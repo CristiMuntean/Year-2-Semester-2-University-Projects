@@ -1,0 +1,6 @@
+OrderId:7, ClientId:1, Order Date:06/05/2022 16:06:19
+Name:Caramel Chocolate Ganache, Rating:5.0, Calories:261, Proteins:2, Fats:17, Sodium:9, Price:38
+Name:Peanut Butter Tart with Caramel-Peanut Glaze, Rating:3.75, Calories:446, Proteins:6, Fats:33, Sodium:45, Price:94
+Name:Crab Fat-Caramel Wings, Rating:3.75, Calories:1159, Proteins:17, Fats:48, Sodium:637, Price:51
+
+Total price of the order:183

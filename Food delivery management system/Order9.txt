@@ -1,0 +1,6 @@
+OrderId:9, ClientId:1, Order Date:12/05/2022 11:25:48
+Name:Roasted Cauliflower and Radicchio Salad, Rating:5.0, Calories:249, Proteins:6, Fats:21, Sodium:277, Price:54
+Name:Raisin and Cardamom Granola Bars, Rating:3.75, Calories:154, Proteins:3, Fats:7, Sodium:2, Price:23
+Name:Crab-Stuffed Deviled Eggs, Rating:3.75, Calories:71, Proteins:6, Fats:5, Sodium:129, Price:56
+
+Total price of the order:133

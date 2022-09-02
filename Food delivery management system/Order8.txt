@@ -1,0 +1,6 @@
+OrderId:8, ClientId:1, Order Date:09/05/2022 16:34:10
+Name:Crab-Stuffed Deviled Eggs, Rating:3.75, Calories:71, Proteins:6, Fats:5, Sodium:129, Price:56
+Name:Baked Carrots with Cheese Sauce, Rating:4.375, Calories:585, Proteins:7, Fats:27, Sodium:46, Price:72
+Name:Tomato Ginger Jam, Rating:4.375, Calories:106, Proteins:2, Fats:6, Sodium:448, Price:41
+
+Total price of the order:169

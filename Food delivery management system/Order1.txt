@@ -1,0 +1,6 @@
+OrderId:1, ClientId:1, Order Date:03/05/2022 15:33:09
+Name:Mint Whipped Cream, Rating:4.375, Calories:323, Proteins:3, Fats:34, Sodium:28, Price:27
+Name:Casserole of Turkey with Rice, Rating:3.125, Calories:502, Proteins:30, Fats:13, Sodium:1797, Price:24
+Name:Perfect Mashed Potatoes, Rating:4.375, Calories:200, Proteins:4, Fats:8, Sodium:17, Price:65
+
+Total price of the order:116
